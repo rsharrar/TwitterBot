@@ -1,0 +1,24 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "Schmese Bot Backend",
+  "main": "twitbot.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsharrar/TwitterBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsharrar/TwitterBot/issues"
+  },
+  "homepage": "https://github.com/rsharrar/TwitterBot#readme",
+  "type": "module",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}

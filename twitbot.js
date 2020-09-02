@@ -1,4 +1,4 @@
-import * as keys from "keys.js";
+import {getSecret} from "./keys";
 
 console.log("Program Me Daddy UwU");
-console.log(keys.getSecret());
+console.log(getSecret());
