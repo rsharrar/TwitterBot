@@ -17,10 +17,11 @@ function twitterPost(postText) {
     })
 }
 
-user.get('statuses/user_timeline', {id: 'realDonaldTrump'}, function(err,data,response){
-    //console.log(data);
+user.get('statuses/user_timeline', {id: 'realDonaldTrump', count: 4, tweet_mode: 'extended'}, function(err,data,response){
+    console.log(data[0]['full_text']);
+    console.log(data[1]['full_text']);
     toText = data;
-    writeFile('./output.txt', toText, function(){console.log('done')});
+    //writeFile('./output.txt', JSON.stringify(toText), function(){console.log('done')});
 })
 
 //twitterPost("test2");
