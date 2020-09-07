@@ -19,6 +19,7 @@
   "homepage": "https://github.com/rsharrar/TwitterBot#readme",
   "type": "module",
   "dependencies": {
+    "brain.js": "^2.0.0-beta.2",
     "esm": "^3.2.25",
     "twit": "^2.2.11"
   }

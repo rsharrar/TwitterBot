@@ -1,6 +1,6 @@
 import {getSecret, getKey, getToken, getTokenSecret} from "./keys";
 import Twit from "twit";
-import { writeFile } from "fs";
+
 
 let toText;
 
@@ -23,5 +23,6 @@ user.get('statuses/user_timeline', {id: 'realDonaldTrump', count: 4, tweet_mode:
     toText = data;
     //writeFile('./output.txt', JSON.stringify(toText), function(){console.log('done')});
 })
+
 
 //twitterPost("test2");
